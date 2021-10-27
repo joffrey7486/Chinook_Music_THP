@@ -1,4 +1,4 @@
-# a) Niveau facile
+## a) Niveau facile
 
     Quel est le nombre total d'objets Album contenus dans la base (sans regarder les id bien sûr) ?
 `Album.all.length`
@@ -13,7 +13,7 @@
     Quel groupe a sorti l'album "Use Your Illusion II" ?
 `Album.find_by(title: "Use Your Illusion II").artist`
 
-# b) Niveau Moyen
+## b) Niveau Moyen
 
     Combien y a t'il d'albums dont le titre contient "Great" ? (indice)
 `Album.where("title like ?", "%Great%").length`
@@ -27,7 +27,7 @@
     Combien de chanson durent exactement 158589 millisecondes ?
 `Track.where(duration: 158589).count`
 
-# c) Niveau Difficile
+## c) Niveau Difficile
 
 Pour ces questions, tu vas devoir effectuer des boucles dans la console Rails. C'est peu commun mais c'est faisable, tout comme dans IRB.
 
