@@ -48,3 +48,4 @@ Pour ces questions, tu vas devoir effectuer des boucles dans la console Rails. C
 `Track.where(artist: "Eric Clapton").each { |i| i.update(artist: "Britney Spears") }`
 
     
+                                                         ProductBy Roobios, fleopaulD & joffrey7486
